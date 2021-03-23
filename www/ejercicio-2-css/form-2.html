@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-2.css">
+</head>
+
+<body class="estructura">
+    <header>
+        <h1>Formulario-2</h1>
+
+    </header>
+    <form action="." method="GET">
+        <fieldset class="nombre">
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" id="name" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="URL">URL</label><br>
+            <input type="URL" name="WEB" id="URL" placeholder="Escribe la URL de tu página web">
+
+        </fieldset>
+        <br>
+        <fieldset>
+            
+            <label for="date">Fecha</label><br>
+            <input type="date" name="calendar" id="date">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="weather">Tiempo</label><br>
+            <input type="time" id="weather">
+        </fieldset>
+        <br>
+        <fieldset>
+             <label for="date-time">Fecha y hora</label><br>
+            <input type="datetime-local" id="date-time">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="month">Mes</label><br>
+            <input type="month" name="birth" id="month">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="week">Semana</label><br>
+            <input type="week" name="semana" id="week">
+
+        </fieldset><br>
+        <fieldset>
+             <label for="number">number</label><br>
+            <input type="number" id="number" name="edad" min="-10" max="10">
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="telephone">Teléfono</label><br>
+            <input type="tel" id="telephone" value="655664456" readonly>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="search">Término de búsqueda</label><br>
+            <input type="search" id="search" disabled>
+        </fieldset>
+        <br>
+        <fieldset class="last-child">
+            <label for="favourite-color">Color favorito</label><br>
+            <input type="color" id="favourite-color">
+
+        </fieldset>
+        <br>
+        <button>Enviar</button>
+
+
+    </form>
+</body>
+
+</html>
